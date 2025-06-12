@@ -25,3 +25,7 @@ ListView.separated widget is mainly used when you want to display organised data
 
 SCREENSHOT OF THE FINAL UI:
  - [App Demo](screenshot/final_UI.PNG)
+
+SOURCE:
+ - Youtube turtorial
+ - Flutter dev website

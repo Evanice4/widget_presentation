@@ -1,16 +1,27 @@
-# listview_separated
+**Flutter ListView.separated Widget Demo**
 
-A new Flutter project.
+WIDGET OVERVIEW
+ - ListView.separated widget creates a scrollable list of items with separators between them.
 
-## Getting Started
+ATTRIBUTES/ PROPERTIES OF ListView.separated WIDGET
+ - itemCount(int): Defines the total number of items in the list. It's effective in controlling how many list item are rendered in your app.
+ - itemBuilder: Builds each individual list item widget. It determines the layout and content of each list entry.
+ - separatorBuilder: It's purpose is to create the separator widget between list items by adding visual dividers like lines or spacing between items.
 
-This project is a starting point for a Flutter application.
+HOW TO RUN:
+ 1. Clone this repository.
+ 2. Open terminal in the project directory.
+ 3. Run **flutter pub get** to install the dependencies.
+ 4. Start your emulator. 
+ 5. Run **flutter run** to start the app.
+ 6. The app will display a scrollable list of user profiles from your emulator.
 
-A few resources to get you started if this is your first Flutter project:
+REAL-WORLD USE CASE:
+ListView.separated widget is mainly used when you want to display organised data, which we can find;
+ - Contact lists (Phone contacts)
+ - E-commerce Apps (product lists)
+ - Chat applications (whatsapp message threads)
+ - Setting menu (phone settings), etc
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+SCREENSHOT OF THE FINAL UI:
+ - [App Demo](screenshot/final_UI.PNG)

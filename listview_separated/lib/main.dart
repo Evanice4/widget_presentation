@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(MaterialApp(
+    home: ListViewBuilderTest(),
+    debugShowCheckedModeBanner: false,
+  ));
+}
 
 /// User model class to hold user data
 class User {
@@ -54,30 +60,31 @@ class ListViewBuilderTest extends StatelessWidget {
 
 /// Sample data - List of users
 List<User> users = [
-  User('Eva Nice', 'Web Developer', 'lib/assets/images/face1.jpg'),
-  User('Eva Nice', 'Flutter Developer', 'images/face2.jpg'),
-  User('Eva Nice', 'UI/UX', 'images/face3.jpg'),
-  User('Eva Nice .K', 'Youtuber', 'images/face4.jpg'),
-  User('Eva Nice', 'Team Leader', 'images/face5.jpg'),
-  User('Eva Nice', 'Android Developer', 'images/face6.jpg'),
-  User('Eva Nice', 'Web Developer', 'images/face7.jpg'),
-  User('Eva Nice .K', 'Chef', 'images/face8.jpg'),
-  User('Nice Eva', 'Web Developer', 'images/face9.jpg'),
-  User('Eva Nice', 'Java Developer', 'images/face10.jpg'),
-  User('Eva Nice', 'Java Developer', 'images/face10.jpg'),
-  User('Eva Nice', 'Java Developer', 'images/face10.jpg'),
-  User('Eva Nice', 'Java Developer', 'images/face10.jpg'),
-  User('Eva Nice', 'Java Developer', 'images/face10.jpg'),
-  User('Eva Nice', 'Java Developer', 'images/face10.jpg'),
-  User('Eva Nice', 'Java Developer', 'images/face10.jpg'),
-  User('Eva Nice', 'Java Developer', 'images/face10.jpg'),
-  User('Eva Nice', 'Java Developer', 'images/face10.jpg'),
+  User('Eva Nice', 'Web Developer', 'assets/images/face1.png'),
+  User('Eva Nice', 'Flutter Developer', 'assets/images/face2.png'),
+  User('Eva Nice', 'UI/UX', 'assets/images/face3.png'),
+  User('Eva Nice .K', 'Youtuber', 'assets/images/face2.png'),
+  User('Eva Nice', 'Team Leader', 'assets/images/face1.png'),
+  User('Eva Nice', 'Android Developer', 'assets/images/face2.png'),
+  User('Eva Nice', 'Web Developer', 'assets/images/face1.png'),
+  User('Eva Nice .K', 'Chef', 'assets/images/face3.png'),
+  User('Nice Eva', 'Web Developer', 'assets/images/face1.png'),
+  User('Eva Nice', 'Java Developer', 'assets/images/face1.png'),
+  User('Eva Nice', 'Java Developer', 'assets/images/face2.png'),
+  User('Eva Nice', 'Java Developer', 'assets/images/face3.png'),
+  User('Eva Nice', 'Java Developer', 'assets/images/face2.png'),
+  User('Eva Nice', 'Java Developer', 'assets/images/face1.png'),
+  User('Eva Nice', 'Web Developer', 'assets/images/face1.png'),
+  User('Eva Nice', 'Flutter Developer', 'assets/images/face2.png'),
+  User('Eva Nice', 'UI/UX', 'assets/images/face3.png'),
+  User('Eva Nice .K', 'Youtuber', 'assets/images/face2.png'),
+  User('Eva Nice', 'Team Leader', 'assets/images/face1.png'),
+  User('Eva Nice', 'Android Developer', 'assets/images/face2.png'),
+  User('Eva Nice', 'Web Developer', 'assets/images/face1.png'),
+  User('Eva Nice', 'Flutter Developer', 'assets/images/face2.png'),
+  User('Eva Nice', 'UI/UX', 'assets/images/face3.png'),
+  User('Eva Nice .K', 'Youtuber', 'assets/images/face2.png'),
+  User('Eva Nice', 'Team Leader', 'assets/images/face1.png'),
+  User('Eva Nice', 'Android Developer', 'assets/images/face2.png'),
+  User('Eva Nice', 'Web Developer', 'assets/images/face1.png'),
 ];
-
-
-void main() {
-  runApp(MaterialApp(
-    home: ListViewBuilderTest(),
-    debugShowCheckedModeBanner: false,
-  ));
-}
